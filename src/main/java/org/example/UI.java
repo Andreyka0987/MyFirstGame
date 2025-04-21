@@ -21,7 +21,7 @@ public class UI extends JFrame implements MouseListener, KeyListener {
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-        setResizable(true);
+        setResizable(false);
 
         add(gameZone);
 
